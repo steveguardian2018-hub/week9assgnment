@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Salad Express</title>
+</head>
+<body>
+<header>
+    <img src="c:\Users\USER\Pictures\Camera Roll\Camera\20261103_144001.jpg" alt="Fruit Salad Express"
+    <h1>Fruit Salad Express</h1>
+    <p><strong>Food</strong> Fruit Salads and Fruit Smoothies</p>
+    <p>Fresh Fruit and delicious smoothies for your pleasures</p>
+    <p>
+        <strong>Where to find truck:</strong> University City Penn Medicine Hospital area Monday-Friday
+    </p>
+</header>
+
+    <hr>
+
+<main>
+
+    <h2>Order Online</h2>
+    <p>Select items below and pickup when ready, fresh for arrival</p>
+
+    <form action="#" method="post">
+        <section>
+            <h3>1.Your contact Information</h3>
+            <p>
+                <label for="customer-name">customer-name:</label><br>
+                <input type="text" id="customer-name" name="customer_name" required placeholder="John Simon">
+            </p>
+
+            <p>
+                <label for="customer-email">Email Address:</label><br>
+                <input type="email" id="customer-email" name="customer_email" required placeholder="John@google.com">
+            </p>
+
+            <p>
+                <label for="customer-phone">Phone Number:</label>><br>
+                <input type="tel" id="customer-phone" name="customer_phone" required placeholder="267-871-9975">
+            </p>
+        </section>
+
+        <fieldset>
+            <legend><h3>2. Select your menu items</h3></legend>
+            <p>Check box next to item to add to order request:</p>
+
+            <p>
+                <input type="checkbox" id="food-item-1" name="food_selection" value="strawberry">
+                <label for="food-item-1">
+                    <strong>strawberry ($4.00)</strong><br>
+                    delicious fresh strawberry Salad.
+                </label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="food-item-2" name="food_selection" value="grapes">
+                <label for="food-item-2">
+                    <strong>grapes ($3.00)</strong><br>
+                    delicious fresh grapes salad.
+                </label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="food-item-3" name="food_selection" value="mixed fruits">
+                <label for="food-item-3">
+                    <strong>mixed fruits (6.00)</strong><br>
+                    mixed salad of grapes, strawberry and watermelon.
+                </label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="food-item-4" name="food_selection" value="Tropical Smoothie">
+                <label for="food-item-4">
+                    <strong>Tropical Smoothie ($5.50)</strong><br>
+                    Smoothie made of strawberry,pineapple and watermelon.
+                </label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="food-item-5" name="food_selection" value="Island Smoothie">
+                <label for="food-item-5">
+                    <strong>Island Smoothie ($5.50)</strong><br>
+                    Smoothie made of grapes, pineapple and mangos
+                </label>
+            </p>
+
+        </fieldset>
+
+        <section>
+            <h3>3. Customization</h3>
+
+            <fieldset>
+                <legend><strong>Select order size:</strong></legend>
+                <p>
+                    <input type="radio" id="size-small" name="order_size" value="Small">
+                    <label for="size-small">Small</label>
+                </p>
+                <p>
+                    <input type="radio" id="size-large" name="order_size" value="Large">
+                    <label for="size-large">Large</label>
+                </p>
+
+            </fieldset>
+        </section>
+
+        <section>
+            <h3>4. Schelduled Pickup details</h3>
+
+            <p>
+                <label for="pickup-date">Requested pickup-date:</label><br>
+                <input type="date" id="pickup-date" name="pickup_date">
+            </p>
+            <p>
+                <label for="pickup-time">Requested pickup-time:</label><br>
+                <input type="time" id="pickup-time" name="pickup_time">
+            </p>
+            <p>
+                <label for="pickup-name">Pickup person's name:</label><br>
+                <input type="text" id="pickup-name" name="pickup_name" required placeholder="name of person">
+            </p>
+        </section>
+
+        <br>
+        <section>
+            <button type="submit">Submit Order</button>
+
+            <button type="reset">Clear Order</button>
+        </section>
+    </form>
+</main>
+
+<footer>
+    <p><small>2026 Fruit Salad Express Stephen Phillips</small></p>
+</footer>
+
+
+
+
+</body>
+</html>
